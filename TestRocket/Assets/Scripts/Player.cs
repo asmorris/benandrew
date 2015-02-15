@@ -24,7 +24,6 @@ public class Player : MonoBehaviour {
     //Player Controller
     void CheckInputs()
     {
-        Debug.Log(Input.touchCount);
         if (Input.touchCount == 1)
         {
             Touch touch = Input.touches[0];
